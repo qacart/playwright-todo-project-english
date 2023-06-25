@@ -23,7 +23,6 @@ export default defineConfig({
 	reporter: 'allure-playwright',
 	/* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
 	use: {
-		headless: false,
 		baseURL: 'https://qacart-todo.herokuapp.com',
 		/* Base URL to use in actions like `await page.goto('/')`. */
 		// baseURL: 'http://127.0.0.1:3000',
